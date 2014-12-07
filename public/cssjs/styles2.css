@@ -1,0 +1,57 @@
+/**
+ * styles.css
+ *
+ * local css info
+ *
+ * Special thanks to on CS50 Problem Set 7
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* center contents */
+    text-align: center;
+}
+
+.form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    max-width: 300px;
+}
+
+#middle td
+{
+    /* left-align tables' cells */
+    text-align: left;
+}
+
+#middle tr
+{
+    /* left-align tables' cells */
+    text-align: center;
+}
+
+#middle .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
